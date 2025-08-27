@@ -11,15 +11,12 @@ const User = require('./models/User');
 const app = express();
 const httpServer = createServer(app);
 
-const allowedOrigins = [
-    'http://localhost:5173',
-    'http://localhost:5174',
-    'http://localhost:5175',
-    'http://localhost:5176',
-];
-if (process.env.CLIENT_URL) allowedOrigins.push(process.env.CLIENT_URL);
+const DEV_ORIGINS = (process.env.NODE_ENV !== 'production')
+    ? ['http://localhost:5173']
+    : [];
+const allowedOrigins = [process.env.CLIENT_URL, ...DEV_ORIGINS].filter(Boolean);
 
-app.use(cors({origin: allowedOrigins, credentials: true}));
+app.use(cors({ origin: allowedOrigins, credentials: true }));
 app.use(express.json());
 
 app.get('/', (_req, res) =>
@@ -373,7 +370,7 @@ app.use((err, _req, res, _next) => {
 });
 app.use((_req, res) => res.status(404).json({message: 'API route not found'}));
 
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT;
 httpServer.listen(PORT, () => {
     console.log(`🚀  API + Socket.IO listening on ${PORT}`);
     console.log(`🌍  Allowed origins: ${allowedOrigins.join(', ')}`);
