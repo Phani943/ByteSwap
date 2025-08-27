@@ -4,7 +4,6 @@
 
 **🌐 WebApp Link:** [https://byteswap-app.onrender.com](https://byteswap-app.onrender.com)
 
-
 ***
 
 ![GitHub stars](https://img.shields.io/github/stars/Phani943/ByteSwap?style=social)
@@ -13,18 +12,6 @@
 ![Contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
 
 *Connect. Learn. Teach. Grow.* 🚀
-
-## 📑 Table of Contents
-- [What is ByteSwap?](#-what-is-byteswap)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Deployment](#-deployment)
-- [How to Use](#-how-to-use-byteswap)
-- [Contributing](#-contributing)
-- [License](#-license)
-- [About the Developer](#-about-the-developer)
 
 ## 🎯 What is ByteSwap?
 
@@ -277,3 +264,4 @@ If ByteSwap helped you learn something new or inspired your next project conside
 *"The best way to learn is to teach, and the best way to teach is to learn together."* ✨
 
 **Happy Coding! 🚀**
+
