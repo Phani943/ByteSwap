@@ -209,7 +209,7 @@ graph LR
 
 1. **📝 Create Account** - Secure registration with email verification
 2. **🎯 Define Skills** - Specify what you teach and want to learn
-3. **🔍 Discover Matches** - AI-powered matching based on skill compatibility
+3. **🔍 Discover Matches** - Matching based on skill compatibility
 4. **🤝 Connect** - Send connection requests to potential learning partners
 5. **💬 Start Learning** - Engage in anonymous, timed knowledge exchange sessions
 
@@ -249,7 +249,7 @@ git push origin feature/amazing-feature
 ## 👨‍💻 About the Developer
 
 **Phani**  
-*Ai Engineer & Full Stack Developer & Open Source Enthusiast*
+*AI Engineer & MERN Stack Developer & Open Source Enthusiast*
 
 ***
 
@@ -264,4 +264,5 @@ If ByteSwap helped you learn something new or inspired your next project conside
 *"The best way to learn is to teach, and the best way to teach is to learn together."* ✨
 
 **Happy Coding! 🚀**
+
 
